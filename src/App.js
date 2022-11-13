@@ -2,10 +2,12 @@ import React from "react";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Introduction from "./components/Introduction";
-import Contact from "./components/Introduction copy";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Social from "./components/Social";
 
 const App = () => {
+
     return (
         <>
             <Navbar />
@@ -13,7 +15,9 @@ const App = () => {
             <About />
             <Experience />
             <Contact />
+            <Social />
         </>
+
 
 
     )
