@@ -11,9 +11,9 @@ const Navbar = () => {
                 <li className="p-2">
                     <a href="/" className=" hover:text-primaryBg ease-in-out duration-200 active:text-primaryText">Experience</a>
                 </li>
-                <li className="p-2">
+                {/* <li className="p-2">
                     <a href="/" className=" hover:text-primaryBg ease-in-out duration-200 active:text-primaryText">Work</a>
-                </li>
+                </li> */}
                 <li className="p-2">
                     <a href="/" className=" hover:text-primaryBg ease-in-out duration-200 active:text-primaryText">Contact</a>
                 </li>

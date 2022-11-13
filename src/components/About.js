@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <section className="flex flex-col gap-6 max-w-screen-xl m-auto my-auto px-20 py-20 text-base font-semibold min-h-screen justify-center">
+        <section className="flex flex-col gap-6 max-w-screen-xl m-auto my-auto p-32 text-base font-semibold justify-center">
             <h1 className="text-primaryText text-2xl font-bold after:content-[''] after:h-[1px] after:w-60 after:bg-primaryText after:block after:relative after:top-[-13px] after:ml-32">About Me</h1>
             <div className="content_about_me grid grid-cols-[3fr,2fr] gap-10">
                 <article className="text-contentText text-lg max-w-xl leading-8 flex flex-col gap-6">
@@ -32,8 +32,6 @@ const About = () => {
                             <li className="before:content-['▹'] before:text-highlightText before:text-base before:mr-2 ">PostgreSQL</li>
                         </ul>
                     </div>
-
-
                 </article>
                 <div className="image_about_me max-w-xs">
                     <img src="https://brittanychiang.com/static/30a645f7db6038f83287d0c6042d3b2b/f9526/me.avif" alt="Jettapat" className="w-full rounded-md" />
