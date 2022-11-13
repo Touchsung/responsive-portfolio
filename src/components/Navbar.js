@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center max-w-screen-2xl m-auto px-12 py-12 h-14">
+        <nav className="flex justify-between items-center w-full m-auto px-12 py-12 h-14 fixed">
             <h1 className="text-2xl font-bold text-primaryText tracking-widest hover:cursor-pointer hover:text-primaryBg ease-in-out duration-200">Touch<span className="font-normal">sung</span></h1>
-            <ul className="flex gap-10 text-primaryText text-xl font-semibold font-mono">
+            <ul className="flex gap-6 text-primaryText text-base font-semibold font-mono">
                 <li className="p-2">
                     <a href="/" className=" hover:text-primaryBg ease-in-out duration-200 active:text-primaryText">About</a>
                 </li>
