@@ -1,6 +1,7 @@
 import { AiFillGithub } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi'
 import foodOrderApp from "../assets/img/Food-Order-App.png";
+import homeServiceApp from "../assets/img/Home-Service.png";
 
 const Experience = () => {
     return (
@@ -8,9 +9,9 @@ const Experience = () => {
             <h1 className="text-primaryText text-2xl font-bold after:content-[''] after:h-[1px] after:w-60 after:bg-primaryText after:block after:relative after:top-[-13px] after:ml-[275px]">Some Things I’ve Built</h1>
             <div className="my_project grid grid-cols-[repeat(12, 1fr)] my-10 relative overflow-hidden lg:bg-white100 lg:rounded-none lg:shadow-none  bg-primaryText w-full rounded shadow-2xl">
                 <div className="image_project absolute col-span-1 lg:max-w-xl lg:block hidden max-h-full">
-                    <a href='https://touchsung.github.io/Food-Menu-Order/' target="_blank" rel="noreferrer">
-                        <div className="lg:bg-primaryBg bg-primaryText w-full h-full lg:opacity-30 opacity-90 absolute lg:hover:opacity-0 ease-in-out duration-500" />
-                        <img src={foodOrderApp} alt="foodOrderApp" className="lg:w-full lg:h-full" />
+                    <a href='https://github.com/techupth/home-service' target="_blank" rel="noreferrer">
+                        <div className="lg:bg-primaryBg bg-primaryText w-full h-full lg:opacity-30 opacity-90 absolute lg:hover:opacity-0 ease-in-out duration-500 rounded" />
+                        <img src={homeServiceApp} alt="foodOrderApp" className="lg:w-full lg:h-full rounded" />
                     </a>
                 </div>
                 <div className="description_project flex flex-col lg:items-end gap-2 col-span-7 p-8 items-start">
@@ -28,12 +29,12 @@ const Experience = () => {
                     </ul>
                     <ul className="lg:text-primaryText text-white text-xl flex gap-3 z-10">
                         <li>
-                            <a href='https://github.com/Touchsung/Food-Menu-Order' target="_blank" rel="noreferrer">
+                            <a href='https://github.com/techupth/home-service' target="_blank" rel="noreferrer">
                                 <AiFillGithub className="hover:text-primaryBg ease-in-out duration-200" />
                             </a>
                         </li>
                         <li>
-                            <a href='https://touchsung.github.io/Food-Menu-Order/' target="_blank" rel="noreferrer">
+                            <a onClick={() => alert("Coming Soon...")}>
                                 <FiExternalLink className="hover:text-primaryBg ease-in-out duration-200" />
                             </a>
                         </li>
@@ -43,8 +44,8 @@ const Experience = () => {
             <div className="my_project grid grid-cols-[repeat(12, 1fr)] my-10 relative overflow-hidden lg:bg-white100 lg:rounded-none lg:shadow-none  bg-primaryText w-full rounded shadow-2xl lg:max-w-full">
                 <div className="image_project absolute col-span-2 lg:max-w-xl lg:block hidden max-h-full right-0">
                     <a href='https://touchsung.github.io/Food-Menu-Order/' target="_blank" rel="noreferrer">
-                        <div className="lg:bg-primaryBg bg-primaryText w-full h-full lg:opacity-30 opacity-90 absolute lg:hover:opacity-0 ease-in-out duration-500" />
-                        <img src={foodOrderApp} alt="foodOrderApp" className="lg:w-full lg:h-full" />
+                        <div className="lg:bg-primaryBg bg-primaryText w-full h-full lg:opacity-30 opacity-90 absolute lg:hover:opacity-0 ease-in-out duration-500 rounded" />
+                        <img src={foodOrderApp} alt="foodOrderApp" className="lg:w-full lg:h-full rounded" />
                     </a>
                 </div>
                 <div className="description_project flex flex-col gap-2 col-span-7 p-8 items-start">
