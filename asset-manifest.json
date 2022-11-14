@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/responsive-portfolio/static/css/main.b5d4f96a.css",
+    "main.js": "/responsive-portfolio/static/js/main.d3b5cc62.js",
+    "static/media/resume_jettapat.pdf": "/responsive-portfolio/static/media/resume_jettapat.13be9ff6dade4acb9dd9.pdf",
+    "static/media/Home-Service.png": "/responsive-portfolio/static/media/Home-Service.7678db7b1ec3f4dc25a3.png",
+    "static/media/profile_picture.jpg": "/responsive-portfolio/static/media/profile_picture.e21e7e0f3d9082e08916.jpg",
+    "static/media/Food-Order-App.png": "/responsive-portfolio/static/media/Food-Order-App.57730150d46168791ba4.png",
+    "index.html": "/responsive-portfolio/index.html",
+    "main.b5d4f96a.css.map": "/responsive-portfolio/static/css/main.b5d4f96a.css.map",
+    "main.d3b5cc62.js.map": "/responsive-portfolio/static/js/main.d3b5cc62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5d4f96a.css",
+    "static/js/main.d3b5cc62.js"
+  ]
+}
