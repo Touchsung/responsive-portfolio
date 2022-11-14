@@ -11,7 +11,7 @@ const Social = () => {
     }
 
     return (
-        <div className='fixed bottom-0 md:left-10 left-3 z-50'>
+        <div className='fixed bottom-0 lg:left-10 left-3 z-50'>
             <AiOutlineArrowUp onClick={scrollToTop} className='text-3xl text-primaryText my-5 hover:text-primaryBg ease-in duration-100' />
 
             <a href='//github.com/Touchsung' target='_blank' rel="noreferrer" >

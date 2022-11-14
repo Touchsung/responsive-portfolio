@@ -2,9 +2,9 @@ import React from "react";
 import profilePicture from "../assets/img/profile_picture.jpg";
 const About = ({ about }) => {
     return (
-        <section ref={about} id="about" className="flex flex-col gap-6 max-w-screen-xl m-auto my-auto md:p-32 px-16 pt-32 text-base font-semibold justify-center">
+        <section ref={about} id="about" className="flex flex-col gap-6 max-w-screen-xl m-auto my-auto lg:p-32 px-16 pt-32 text-base font-semibold justify-center">
             <h1 className="text-primaryText text-2xl font-bold after:content-[''] after:h-[1px] after:w-60 after:bg-primaryText after:block after:relative after:top-[-13px] after:ml-32">About Me</h1>
-            <div className="content_about_me md:grid md:grid-cols-[3fr,2fr] gap-10">
+            <div className="content_about_me lg:grid lg:grid-cols-[3fr,2fr] gap-10">
                 <article className="text-contentText text-lg max-w-screen leading-8 flex flex-col gap-6">
                     <p>
                         Hello! My name is Jettapat and I graduated with a bachelor of Food and Science my interest in programming languages started back when I graduated when I decided to try learning about python by myself then I feel good when coding and trying to solve problems it like playing puzzle game
@@ -33,9 +33,9 @@ const About = ({ about }) => {
                         </ul>
                     </div>
                 </article>
-                <div className="image_about_me md:max-w-xs flex justify-center md:my-0 my-16">
+                <div className="image_about_me lg:max-w-xs flex justify-center lg:my-0 my-16">
                     <div className="wrapper max-w-lg block">
-                        <img src={profilePicture} alt="Jettapat" className="rounded-md md:max-w-full w-[300px] " />
+                        <img src={profilePicture} alt="Jettapat" className="rounded-md lg:max-w-full w-[300px] " />
                     </div>
                 </div>
             </div>
