@@ -1,5 +1,3 @@
-import React from "react";
-
 const Introduction = () => {
     return (
         <header className="flex flex-col gap-4 max-w-screen-xl m-auto my-auto lg:px-32 px-16 py-20 text-base font-semibold min-h-screen justify-center">

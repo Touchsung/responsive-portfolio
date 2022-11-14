@@ -1,4 +1,3 @@
-import React from "react";
 import { AiFillGithub } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi'
 import foodOrderApp from "../assets/img/Food-Order-App.png";

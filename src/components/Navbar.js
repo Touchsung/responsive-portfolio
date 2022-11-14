@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FiMenu } from 'react-icons/fi';
+import resume from '../assets/resume_jettapat.pdf';
 
-const Navbar = ({ about }) => {
+const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click);
     const closeMenu = () => setClick(false);
@@ -34,7 +35,7 @@ const Navbar = ({ about }) => {
                 <li className='py-8 w-full text-center ease-in-out duration-300 md:py-0 md:w-fit md:pl-16 md:text-primaryText hover:text-primaryBg md:relative md:before:content-[""]  md:before:border-[3px] md:before:border-primaryText md:before:hover:border-primaryBg  md:before:w-full md:before:absolute md:before:h-14  md:before:-top-[16px] md:before:left-8 md:before:-z-10 md:before:rounded-xl md:hover:bg-opacity-0 md:hover:before:bg-opacity-90 md:before:ease-in md:before:duration-300 md:mr-8'
                     onClick={() => {
                         closeMenu()
-                    }}><a href='https://drive.google.com/file/d/1uu2SoHxqS3bQ3ZtMmn3znjptncuc3t6E/view?usp=sharing'>Resume</a></li>
+                    }}><a href={resume}>Resume</a></li>
             </ul>
             <div className=' text-primary-text-color text-3xl md:hidden z-20' onClick={handleClick}>
                 {click ? <AiOutlineClose /> : <FiMenu />}

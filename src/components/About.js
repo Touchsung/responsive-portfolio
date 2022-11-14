@@ -1,5 +1,5 @@
-import React from "react";
 import profilePicture from "../assets/img/profile_picture.jpg";
+
 const About = ({ about }) => {
     return (
         <section ref={about} id="about" className="flex flex-col gap-6 max-w-screen-xl m-auto my-auto lg:p-32 px-16 pt-32 text-base font-semibold justify-center">
