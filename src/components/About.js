@@ -7,10 +7,10 @@ const About = ({ about }) => {
             <div className="content_about_me lg:grid lg:grid-cols-[3fr,2fr] gap-10">
                 <article className="text-contentText text-lg max-w-screen leading-8 flex flex-col gap-6">
                     <p>
-                        Hello! My name is Jettapat and I graduated with a bachelor of Food and Science my interest in programming languages started back when I graduated when I decided to try learning about python by myself then I feel good when coding and trying to solve problems it like playing puzzle game
+                        Hello! My name is Jettapat and I graduated with a bachelor of food and science. My interest in programming languages started back when I graduated and I decided to try learning about python by myself then I feel good when coding and trying to solve problems it like playing puzzle game.
                     </p>
                     <p>
-                        I also recently joined <a href="https://www.techupth.com/" target="_blank" className="text-highlightText font-bold hover:text-primaryBg ease-in-out duration-200" rel="noreferrer">TechUp Bootcamp</a> which covers basic skills everything needs to be a full stack software developer with javascript
+                        I also recently joined <a href="https://www.techupth.com/" target="_blank" className="text-highlightText font-bold hover:text-primaryBg ease-in-out duration-200" rel="noreferrer">TechUp Bootcamp</a> which covers basic skills everything needs to be a full stack software developer with javascript.
                     </p>
                     <p>
                         Now I'm entry-level and have few projects but I am willing to learn new things with a growth mindset.
